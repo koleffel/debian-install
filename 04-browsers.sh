@@ -27,3 +27,6 @@ flatpak install flathub com.google.Chrome -y
 
 flatpak install flathub org.chromium.Chromium -y
 
+# Vivaldi
+
+flatpak install flathub com.vivaldi.Vivaldi -y
