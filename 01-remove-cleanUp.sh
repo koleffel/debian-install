@@ -10,7 +10,7 @@ echo "Are you Ready ?"
 
 echo "Update / Upgrade the System First :"
 
-sudo apt update && sudo apt dist-upgrade && sudo apt autoremove -y
+sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove -y
 
 ###### Remove ALL the NOT Wanted software #########
 
@@ -25,7 +25,7 @@ sudo apt purge akonadi* -y && sudo apt autoremove -y
 
 echo "Remove the FIREFOX ESR version , Konqueror and Transmission : "
 
-sudo apt purge firefox-esr konqueror transmission -y && sudo apt autoremove -y
+sudo apt purge firefox-esr konqueror transmission transmission-gtk -y && sudo apt autoremove -y
 
 echo "Remove the cheese, Dragon Player, JuK , gnome-music , Libre Office and Evolution : "
 
