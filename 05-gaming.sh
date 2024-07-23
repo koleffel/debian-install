@@ -1,5 +1,10 @@
 #!/bin/bash
 
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
 # Install the Wine-staging for Gaming and Windows emulation
 
 sudo dpkg --add-architecture i386 
