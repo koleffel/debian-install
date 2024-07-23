@@ -3,64 +3,7 @@
 
 ####### Start Installing the Software We need !!! #################
 
-echo " First Lets set up and Install the FLATPAK ! "
 
-sudo apt install flatpak -y
-
-sudo apt install gnome-software-plugin-flatpak
-
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-
-echo " We will install some Flatpak Software now ! "
-
-# Firefox
-
-echo "Install Firefox : "
-
-flatpak install flathub org.mozilla.firefox -y
-
-# OnlyOffice
-
-echo "Install OnlyOffice : "
-
-flatpak install flathub org.onlyoffice.desktopeditors -y
-
-# KDENLIVE
-
-echo "Install Kdenlive :"
-
-flatpak install flathub org.kde.kdenlive -y
-
-# OBS Studio
-
-echo "Install Obs Studio :"
-
-flatpak install flathub com.obsproject.Studio -y
-
-# Audacity
-
-echo "Install Audacity :"
-
-flatpak install flathub org.audacityteam.Audacity -y
-
-# VS Code
-
-echo "Install VS CODE :"
-
-flatpak install flathub com.visualstudio.code -y
-
-# QBittorrent
-
-echo "Install QBittorrent"
-
-flatpak install flathub org.qbittorrent.qBittorrent -y
-
-# VLC
-
-echo " Install VLC : "
-
-flatpak install flathub org.videolan.VLC -y
 
 # Install GIT and wget 
 
