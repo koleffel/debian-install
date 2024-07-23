@@ -16,8 +16,6 @@ sh 03-*
 
 sh 04-*
 
-sh 05-*
-
 sudo apt update && sudo apt upgrade -y
 
 sudo apt autoremove -y
