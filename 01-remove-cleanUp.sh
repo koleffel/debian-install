@@ -35,5 +35,8 @@ sudo apt purge firefox-esr konqueror transmission transmission-gtk -y && sudo ap
 
 echo "Remove the cheese, Dragon Player, JuK , gnome-music , Libre Office and Evolution : "
 
-sudo apt purge cheese dragonplayer juk gnome-music  libreoffice evolution libreoffice-calc libreoffice-draw libreoffice-impress libreoffice-writer -y  && sudo apt autoremove -y
+sudo apt purge cheese dragonplayer juk gnome-music  libreoffice evolution libreoffice-calc libreoffice-draw libreoffice-impress libreoffice-writer hexchat simple-scan drawing libreoffice* -y  && sudo apt autoremove -y
+
+sudo apt update 
+
 

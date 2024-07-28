@@ -9,9 +9,9 @@
 
 
 
-# Install GIT and wget 
+# Install GIT and wget curl
 
-sudo apt install git wget -y
+sudo apt install git wget curl -y
 
 # Install Sublime Text from the official website
 
@@ -21,6 +21,8 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 
 sudo apt-get update
 sudo apt-get install sublime-text -y
+
+
 
 
 ############## WINE - STAGING ###################################

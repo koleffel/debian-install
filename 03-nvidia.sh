@@ -14,7 +14,7 @@ sudo apt dist-upgrade -y
 
 sudo apt autoremove -y
 
-sudo apt install nvidia-driver -y
+sudo apt install nvidia-driver-full nvidia-cuda-toolkit -y
 
 
 
